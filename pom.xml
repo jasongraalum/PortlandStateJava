@@ -13,7 +13,6 @@
     <module>web</module>
     <module>family</module>
     <module>grader</module>
-    <module>gwt-parent</module>
     <module>projects-parent</module>
   </modules>
   <inceptionYear>2000</inceptionYear>
@@ -266,9 +265,6 @@
             <additionalClasspathElements>
               <additionalClasspathElement>${project.build.directory}/test-classes</additionalClasspathElement>
             </additionalClasspathElements>
-            <excludes>
-              <exclude>**/*GwtIT.*</exclude>
-            </excludes>
           </configuration>
           <executions>
             <execution>
@@ -418,7 +414,6 @@
             <link>http://junit.org/junit4/javadoc/latest</link>
             <link>http://docs.oracle.com/javase/8/docs/jdk/api/javadoc/doclet</link>
             <link>http://www.jajakarta.org/ant/ant-1.6.1/docs/en/manual/api</link>
-            <link>http://www.gwtproject.org/javadoc/latest</link>
             <link>http://web.cecs.pdx.edu/~whitlock/docs</link>
           </links>
           <detectJavaApiLink/>
